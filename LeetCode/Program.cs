@@ -40,6 +40,9 @@ namespace LeetCode
             
             TwoSumII twoSumII = new TwoSumII();
             twoSumII.TwoSum(input, 0);
+
+            TwoSum twoSum = new TwoSum();
+            twoSum.TwoSumHashMap(input, 0);
         }
     }
 }

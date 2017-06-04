@@ -60,7 +60,7 @@ namespace LeetCode
             {
                 while (tempNumberOne >= 1 || tempNumberTwo >= 1)
                 {
-                    quotientOne = tempNumberOne / 2;
+                    quotientOne = tempNumberOne / 2;//used 2 because we get the binary represenation of the number using 2
                     quotientTwo = tempNumberTwo / 2;
 
                     if ((tempNumberOne % 2) != (tempNumberTwo % 2))
@@ -77,7 +77,7 @@ namespace LeetCode
         }
 
         /// <summary>
-        /// Used the XOR operator available in C# and counted the number of remainders which are 1
+        /// Used the XOR operator available  and counted the number of remainders which are 1
         /// 0101 - num 1
         /// 1001- num 2
         /// 1100 - is xor

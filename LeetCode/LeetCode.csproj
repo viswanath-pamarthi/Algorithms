@@ -46,9 +46,12 @@
     <Compile Include="ArrayPartition-I.cs" />
     <Compile Include="BinaryWatch.cs" />
     <Compile Include="Count1Bits.cs" />
+    <Compile Include="FindComplement.cs" />
     <Compile Include="HammingDistance.cs" />
     <Compile Include="HammingWeight.cs" />
     <Compile Include="LetterCombPhone.cs" />
+    <Compile Include="PowerOfFour.cs" />
+    <Compile Include="PowerOfThree.cs" />
     <Compile Include="PowerOfTwo.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
