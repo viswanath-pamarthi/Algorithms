@@ -45,6 +45,10 @@
   <ItemGroup>
     <Compile Include="ArrayPartition-I.cs" />
     <Compile Include="BinaryWatch.cs" />
+    <Compile Include="CombinationSum.cs" />
+    <Compile Include="CombinationSum2.cs" />
+    <Compile Include="CombinationSum3.cs" />
+    <Compile Include="CombinationSum4.cs" />
     <Compile Include="Count1Bits.cs" />
     <Compile Include="FindComplement.cs" />
     <Compile Include="HammingDistance.cs" />

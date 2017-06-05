@@ -43,6 +43,15 @@ namespace LeetCode
 
             TwoSum twoSum = new TwoSum();
             twoSum.TwoSumHashMap(input, 0);
+
+            int[] inputData = new int[] { 1, 3,4, 6, 7 };
+            CombinationSum combinationSum = new CombinationSum();
+            IEnumerable<IList<int>> result= combinationSum.combinationSum(inputData, 7);
+
+            int[] inputData1 = new int[] { 4,2,1 };
+            CombinationSum4 commbinationSum4 = new CombinationSum4();
+            commbinationSum4.combinationSum4(inputData1,4);
+
         }
     }
 }
