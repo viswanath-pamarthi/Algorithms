@@ -43,6 +43,9 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="AddStrings.cs" />
+    <Compile Include="AddTwoNumbers.cs" />
+    <Compile Include="AddTwoNumbers2.cs" />
     <Compile Include="ArrayPartition-I.cs" />
     <Compile Include="BinaryWatch.cs" />
     <Compile Include="CombinationSum.cs" />
@@ -54,6 +57,7 @@
     <Compile Include="HammingDistance.cs" />
     <Compile Include="HammingWeight.cs" />
     <Compile Include="LetterCombPhone.cs" />
+    <Compile Include="MultiplyStrings.cs" />
     <Compile Include="PowerOfFour.cs" />
     <Compile Include="PowerOfThree.cs" />
     <Compile Include="PowerOfTwo.cs" />

@@ -52,6 +52,14 @@ namespace LeetCode
             CombinationSum4 commbinationSum4 = new CombinationSum4();
             commbinationSum4.combinationSum4(inputData1,4);
 
+            AddStrings ad = new AddStrings();
+
+            string sum = ad.AddTwoStrings("123456789", "987654321");
+            Console.WriteLine(sum);
+
+            MultiplyStrings multiplyResult = new MultiplyStrings();
+
+            string resultMultipleStrings=multiplyResult.Multiply("123456789", "987654321");
         }
     }
 }
