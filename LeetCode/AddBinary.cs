@@ -25,6 +25,12 @@ namespace LeetCode
         /// <returns>result of adding two binary numbers</returns>
         public string AddBinaryNumbers(string a, string b)
         {
+            if (a.Length == 0)
+                return b;
+
+            if (b.Length == 0)
+                return a;
+
             if (a.Length < b.Length)
             {
                 return AddBinaryNumbers(b, a);
@@ -34,13 +40,7 @@ namespace LeetCode
             int carryOver = 0;
             int i = a.Length - 1;
             int j = b.Length - 1;
-            char[] result = new char[a.Length];
-
-            if (a.Length == 0)
-                return b;
-
-            if (b.Length == 0)
-                return a;
+            char[] result = new char[a.Length];            
 
 
             while (i >= 0 || j>=0 || (i >= 0&&carryOver ==1))
@@ -53,6 +53,7 @@ namespace LeetCode
                 result[i]= (char)((result[i] - '0')  + (carryOver) + '0');
                 carryOver = (result[i]-'0')/2;
                 result[i] = (char)(((result[i]-'0') % 2)+'0');
+
                 i--;
                 j--;
               }
