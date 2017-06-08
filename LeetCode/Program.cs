@@ -53,13 +53,18 @@ namespace LeetCode
             commbinationSum4.combinationSum4(inputData1,4);
 
             AddStrings ad = new AddStrings();
-
             string sum = ad.AddTwoStrings("123456789", "987654321");
             Console.WriteLine(sum);
 
             MultiplyStrings multiplyResult = new MultiplyStrings();
-
             string resultMultipleStrings=multiplyResult.Multiply("123456789", "987654321");
+
+            PlusOne plusOneResult = new PlusOne();
+            plusOneResult.PlusOneToArrayInts(new int[1]{9});
+
+
+            AddBinary plusAddBinary = new AddBinary();
+            string plusAddBinaryResult= plusAddBinary.AddBinaryNumbers("100","110010");
         }
     }
 }

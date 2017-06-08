@@ -43,6 +43,7 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="AddBinary.cs" />
     <Compile Include="AddStrings.cs" />
     <Compile Include="AddTwoNumbers.cs" />
     <Compile Include="AddTwoNumbers2.cs" />
@@ -58,6 +59,7 @@
     <Compile Include="HammingWeight.cs" />
     <Compile Include="LetterCombPhone.cs" />
     <Compile Include="MultiplyStrings.cs" />
+    <Compile Include="PlusOne.cs" />
     <Compile Include="PowerOfFour.cs" />
     <Compile Include="PowerOfThree.cs" />
     <Compile Include="PowerOfTwo.cs" />
