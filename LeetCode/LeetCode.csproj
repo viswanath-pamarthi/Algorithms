@@ -55,6 +55,7 @@
     <Compile Include="CombinationSum4.cs" />
     <Compile Include="Count1Bits.cs" />
     <Compile Include="FindComplement.cs" />
+    <Compile Include="FractionAddition.cs" />
     <Compile Include="HammingDistance.cs" />
     <Compile Include="HammingWeight.cs" />
     <Compile Include="LetterCombPhone.cs" />

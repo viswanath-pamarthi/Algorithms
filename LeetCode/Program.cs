@@ -65,6 +65,9 @@ namespace LeetCode
 
             AddBinary plusAddBinary = new AddBinary();
             string plusAddBinaryResult= plusAddBinary.AddBinaryNumbers("100","110010");
+
+            FractionAddition fractionAddition = new FractionAddition();
+            fractionAddition.FractionAdditionString("-1/2+1/2+1/3");
         }
     }
 }
