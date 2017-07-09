@@ -68,6 +68,9 @@ namespace LeetCode
 
             FractionAddition fractionAddition = new FractionAddition();
             fractionAddition.FractionAdditionString("-1/2+1/2+1/3");
+
+            ParseStringToInteger stringToInt = new ParseStringToInteger();
+            int number = stringToInt.ParseStringToInt("-2147483648");
         }
     }
 }
