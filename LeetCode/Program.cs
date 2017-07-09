@@ -71,6 +71,9 @@ namespace LeetCode
 
             ParseStringToInteger stringToInt = new ParseStringToInteger();
             int number = stringToInt.ParseStringToInt("-2147483648");
+
+            CountPrimesLessThanN primes = new CountPrimesLessThanN();
+            int count = primes.CountPrimeNumbers(13);
         }
     }
 }
