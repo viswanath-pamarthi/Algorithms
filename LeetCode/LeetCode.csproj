@@ -54,7 +54,9 @@
     <Compile Include="CombinationSum3.cs" />
     <Compile Include="CombinationSum4.cs" />
     <Compile Include="Count1Bits.cs" />
+    <Compile Include="FindDiffString.cs" />
     <Compile Include="FindComplement.cs" />
+    <Compile Include="FirstMissingPositive.cs" />
     <Compile Include="FractionAddition.cs" />
     <Compile Include="HammingDistance.cs" />
     <Compile Include="HammingWeight.cs" />
@@ -71,6 +73,9 @@
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="ReverseBits.cs" />
+    <Compile Include="SingleNumber.cs" />
+    <Compile Include="SingleNumber2.cs" />
+    <Compile Include="SingleNumber3.cs" />
     <Compile Include="TwoSum.cs" />
     <Compile Include="TwoSumII.cs" />
   </ItemGroup>

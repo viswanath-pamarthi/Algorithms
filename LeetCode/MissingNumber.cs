@@ -39,6 +39,7 @@ namespace LeetCode
         ///        int result = A[0];
         ///        for (int i = 1; i lessthan  n; i++)
         ///        {
+        ///            result ^= i;
         ///            result = result ^ A[i];  Get the xor of all elements 
         ///        }
         ///        return result;
