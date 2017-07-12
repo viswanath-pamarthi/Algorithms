@@ -54,6 +54,7 @@
     <Compile Include="CombinationSum3.cs" />
     <Compile Include="CombinationSum4.cs" />
     <Compile Include="Count1Bits.cs" />
+    <Compile Include="DivideTwoIntegers.cs" />
     <Compile Include="FindDiffString.cs" />
     <Compile Include="FindComplement.cs" />
     <Compile Include="FirstMissingPositive.cs" />
@@ -76,6 +77,7 @@
     <Compile Include="SingleNumber.cs" />
     <Compile Include="SingleNumber2.cs" />
     <Compile Include="SingleNumber3.cs" />
+    <Compile Include="SolveTheEquation.cs" />
     <Compile Include="TwoSum.cs" />
     <Compile Include="TwoSumII.cs" />
   </ItemGroup>

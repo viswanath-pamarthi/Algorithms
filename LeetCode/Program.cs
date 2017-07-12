@@ -74,6 +74,10 @@ namespace LeetCode
 
             CountPrimesLessThanN primes = new CountPrimesLessThanN();
             int count = primes.CountPrimeNumbers(13);
+
+
+            SolveTheEquation equation = new SolveTheEquation();
+            string test=equation.SolveEquation("gggg=sdsdsdsd");
         }
     }
 }
