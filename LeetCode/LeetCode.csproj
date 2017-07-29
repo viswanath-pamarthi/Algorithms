@@ -62,6 +62,7 @@
     <Compile Include="HammingDistance.cs" />
     <Compile Include="HammingWeight.cs" />
     <Compile Include="LetterCombPhone.cs" />
+    <Compile Include="LongestPalindrome.cs" />
     <Compile Include="MiniParser.cs" />
     <Compile Include="MissingNumber.cs" />
     <Compile Include="MultiplyStrings.cs" />
@@ -78,6 +79,8 @@
     <Compile Include="SingleNumber2.cs" />
     <Compile Include="SingleNumber3.cs" />
     <Compile Include="SolveTheEquation.cs" />
+    <Compile Include="SortedListToBST.cs" />
+    <Compile Include="StringReverse.cs" />
     <Compile Include="TwoSum.cs" />
     <Compile Include="TwoSumII.cs" />
   </ItemGroup>
