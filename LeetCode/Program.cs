@@ -77,7 +77,11 @@ namespace LeetCode
 
 
             SolveTheEquation equation = new SolveTheEquation();
-            string test=equation.SolveEquation("gggg=sdsdsdsd");
+           // string test=equation.SolveEquation("gggg=sdsdsdsd");
+
+          
+            
+
         }
-    }
+}
 }

@@ -66,6 +66,7 @@
     <Compile Include="MiniParser.cs" />
     <Compile Include="MissingNumber.cs" />
     <Compile Include="MultiplyStrings.cs" />
+    <Compile Include="PalindromeNumber.cs" />
     <Compile Include="ParseStringToInteger.cs" />
     <Compile Include="PlusOne.cs" />
     <Compile Include="PowerOfFour.cs" />
@@ -75,6 +76,7 @@
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="ReverseBits.cs" />
+    <Compile Include="ReverseInteger.cs" />
     <Compile Include="SingleNumber.cs" />
     <Compile Include="SingleNumber2.cs" />
     <Compile Include="SingleNumber3.cs" />
