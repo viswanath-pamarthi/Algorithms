@@ -54,6 +54,7 @@
     <Compile Include="CombinationSum3.cs" />
     <Compile Include="CombinationSum4.cs" />
     <Compile Include="Count1Bits.cs" />
+    <Compile Include="DataStructures\BinarySearchTree.cs" />
     <Compile Include="DivideTwoIntegers.cs" />
     <Compile Include="FindDiffString.cs" />
     <Compile Include="FindComplement.cs" />
