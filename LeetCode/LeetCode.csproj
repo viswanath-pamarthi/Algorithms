@@ -64,6 +64,8 @@
     <Compile Include="HammingWeight.cs" />
     <Compile Include="LetterCombPhone.cs" />
     <Compile Include="LongestPalindrome.cs" />
+    <Compile Include="MaxConsecutiveOnes.cs" />
+    <Compile Include="MergeTwoBinaryTrees.cs" />
     <Compile Include="MiniParser.cs" />
     <Compile Include="MissingNumber.cs" />
     <Compile Include="MultiplyStrings.cs" />
@@ -78,6 +80,7 @@
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="ReverseBits.cs" />
     <Compile Include="ReverseInteger.cs" />
+    <Compile Include="ReverseWordsStringIII.cs" />
     <Compile Include="SingleNumber.cs" />
     <Compile Include="SingleNumber2.cs" />
     <Compile Include="SingleNumber3.cs" />
