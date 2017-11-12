@@ -21,6 +21,7 @@ namespace LeetCode
             int i = m - 1; int j = n - 1;
             int k = m + n - 1;//keep track of index of insertion 
 
+            //Similar to that of the merge routine in merge sort, but in place and first array has all the space required for the merged arrays
             while (i > -1 && j > -1)
             {
                 if (nums1[i] > nums2[j])
