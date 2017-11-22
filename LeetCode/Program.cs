@@ -103,6 +103,15 @@ namespace LeetCode
             Console.WriteLine("--------------------PreOrderTraversal--------------------------");
             binarySearch.PreOrderTraversal(binarySearch.RootNode);
 
+            Power_x_n_ test = new Power_x_n_();
+            test.MyPow(34.00515, -3);
+
+            SuperPower superPower = new SuperPower();
+            superPower.SuperPow(2147483647, new int[]{ 2, 0, 0 });
+
+            UniquePath countpathsNbyMMatrix = new UniquePath();
+            int noOfPaths = countpathsNbyMMatrix.NumberOfPaths(3, 3);
+
         }
     }
 }
