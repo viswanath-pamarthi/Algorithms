@@ -25,6 +25,11 @@ namespace LeetCode
     {
         /// <summary>
         /// Method to validate if number is a perfect square
+        /// 
+        /// Time complexity is O(sqrt(n))
+        /// if 4 - loop fpr 1 amd 3 odd numbers decrement
+        /// if 9 then 1+3+5 - loop 3 time that is sqrt(9)=3
+        /// 16 - 4
         /// </summary>
         /// <param name="num">number to be validated</param>
         /// <returns></returns>

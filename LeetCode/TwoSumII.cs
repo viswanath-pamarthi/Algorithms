@@ -19,27 +19,35 @@ namespace LeetCode
 {
     class TwoSumII
     {
+        /// <summary>
+        /// 
+        /// </summary>
+        /// <param name="numbers"></param>
+        /// <param name="target"></param>
+        /// <returns></returns>
         public int[] TwoSum(int[] numbers, int target)
         {
             int[] result = new int[2] { 0, 0 };
-            int i, j;
-            i = 0;
-            j = numbers.Length - 1;
+            int lowerIndex, higherIndex;
+            lowerIndex = 0;
+            higherIndex = numbers.Length - 1;
 
-            while ((numbers[i] + numbers[j] != target) &&(i<j))
+            //Start with two pointers starting and ending. loop till the sum is not equal to target and also the lower index or leass than higher index
+            while ((numbers[lowerIndex] + numbers[higherIndex] != target) &&(lowerIndex<higherIndex))
             {
-                if (numbers[i] + numbers[j] < target)
+                //if the sum is less than target then target then increment the lower index to increase the sum
+                if (numbers[lowerIndex] + numbers[higherIndex] < target)
                 {
-                    i++;
+                    lowerIndex++;
                 }
-                else
+                else//if the sum is greater than target then decrease the higher index to decrease the sum
                 {
-                    j--;
+                    higherIndex--;
                 }
               
             }
 
-            if(i>=j)
+            if(lowerIndex>=higherIndex)
             {
                 result[0] = 0;
                 result[1] = 0;
@@ -48,9 +56,10 @@ namespace LeetCode
             }
             else
             {
-                result[0] = i + 1 ;
-                result[1] = j + 1;
+                result[0] = lowerIndex + 1 ;
+                result[1] = higherIndex + 1;
             }
+
             return result;
         }
     }
