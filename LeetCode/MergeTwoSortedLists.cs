@@ -11,6 +11,14 @@ namespace LeetCode
 {
     class MergeTwoSortedLists
     {
+        /// <summary>
+        /// O(n+m)
+        /// n- first list size
+        /// m-size of second list
+        /// </summary>
+        /// <param name="l1"></param>
+        /// <param name="l2"></param>
+        /// <returns></returns>
         public ListNode MergeTwoLists(ListNode l1, ListNode l2)
         {
             //This is kind of Merge Sort , Merge routine
@@ -128,4 +136,35 @@ namespace LeetCode
 
         }
     }
+    ///// <summary>
+    ///// C++ soltion in discussiono section., I liked the idea of using the dummy node to prevent an extra case to create a head node
+    ///// Also, it is simple and no extra space is consumed
+    ///// </summary>
+    //class Solution
+    //{
+    //    public:
+    //ListNode* mergeTwoLists(ListNode* l1, ListNode* l2)
+    //    {
+    //        ListNode dummy(INT_MIN);
+    //        ListNode* tail = &dummy;
+
+    //        while (l1 && l2)
+    //        {
+    //            if (l1->val < l2->val)
+    //            {
+    //                tail->next = l1;
+    //                l1 = l1->next;
+    //            }
+    //            else
+    //            {
+    //                tail->next = l2;
+    //                l2 = l2->next;
+    //            }
+    //            tail = tail->next;
+    //        }
+
+    //        tail->next = l1 ? l1 : l2;
+    //        return dummy.next;
+    //    }
+    //};
 }

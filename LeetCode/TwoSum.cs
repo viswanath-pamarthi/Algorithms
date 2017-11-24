@@ -5,6 +5,7 @@ using System.Text;
 using System.Threading.Tasks;
 
 /// <summary>
+/// https://leetcode.com/problems/two-sum/description/
 /// Given an array of integers, return indices of the two numbers such that they add up to a specific target.
 ///
 ///You may assume that each input would have exactly one solution, and you may not use the same element twice.
@@ -21,6 +22,8 @@ namespace LeetCode
     {
         /// <summary>
         /// My solution for the problem, O(n^2)
+        /// 4 elements, 3 compariosions with first element, 2 next , 1
+        /// 1+2+3.... 1+2+3+...n-1  that is (n-1)*(n-2)/2 i.e. O(n^2)
         /// </summary>
         /// <param name="nums">Input array of numbers</param>
         /// <param name="target">The target number, where the sum of two numbers equals this target</param>
