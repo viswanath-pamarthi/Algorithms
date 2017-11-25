@@ -42,26 +42,26 @@ namespace LeetCode
             return list;
         }
 
+        /// <summary>
+        /// Time Complexity ?
+        /// </summary>
+        /// <param name="solutions"></param>
+        /// <param name="tempList"></param>
+        /// <param name="nums"></param>
+        /// <param name="rem"></param>
+        /// <param name="start"></param>
+        /// <param name="countOfNums"></param>
         private void backtrack(IList<IList<int>> solutions, IList<int> tempList, int[] nums, int rem, int start, int countOfNums)
         {
-            if (rem < 0)
-                return;
-            else if ((rem == 0) && (countOfNums == tempList.Count))//count checkig
+            if ((rem == 0) && (countOfNums == 0))
                 solutions.Add(new List<int>(tempList));
             else
             {
                 for (int i = start; i < nums.Length; i++)
                 {
-                    if (i > 0 && (nums[i] == nums[i - 1]) && i > start)
-                        continue;
-
-                    if (rem >= nums[i])
-                    {
-                        tempList.Add(nums[i]);
-                        backtrack(solutions, tempList, nums, rem - nums[i], i + 1, countOfNums);
-                        tempList.RemoveAt(tempList.Count - 1);
-                    }
-
+                    tempList.Add(nums[i]);
+                    backtrack(solutions, tempList, nums, rem - nums[i], i + 1, countOfNums - 1);
+                    tempList.RemoveAt(tempList.Count - 1);
                 }
             }
         }

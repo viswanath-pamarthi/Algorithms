@@ -49,6 +49,7 @@
     <Compile Include="AddTwoNumbers2.cs" />
     <Compile Include="ArrayPartition-I.cs" />
     <Compile Include="BinaryWatch.cs" />
+    <Compile Include="CombinationsDistinctNumbers.cs" />
     <Compile Include="CombinationSum.cs" />
     <Compile Include="CombinationSum2.cs" />
     <Compile Include="CombinationSum3.cs" />
@@ -57,6 +58,7 @@
     <Compile Include="DeleteNodeLinkedList.cs" />
     <Compile Include="DetectCapital.cs" />
     <Compile Include="FindAllAnagrams.cs" />
+    <Compile Include="HashTable\MinimumIndexSumOfTwoLists.cs" />
     <Compile Include="IntersectionLinkedList.cs" />
     <Compile Include="KeyboardRow.cs" />
     <Compile Include="LinkedListCycle.cs" />
@@ -65,8 +67,12 @@
     <Compile Include="MergeIntervals.cs" />
     <Compile Include="MergeSortedArrays.cs" />
     <Compile Include="MergeTwoSortedLists.cs" />
+    <Compile Include="NestedListWeightSum.cs" />
     <Compile Include="PalindromicSubstrings.cs" />
     <Compile Include="PartitionList.cs" />
+    <Compile Include="PermutationInString.cs" />
+    <Compile Include="PermutationOfDuplicateNumbers.cs" />
+    <Compile Include="PermutationsDistinctNumbers.cs" />
     <Compile Include="RemoveDuplicateSortedArray.cs" />
     <Compile Include="RemoveDuplicatesSortedList.cs" />
     <Compile Include="RemoveElement.cs" />
@@ -75,6 +81,10 @@
     <Compile Include="ReverseLinkedList.cs" />
     <Compile Include="ReverseLinkedListII.cs" />
     <Compile Include="ReverseStringII.cs" />
+    <Compile Include="SearchForRangeOftarget.cs" />
+    <Compile Include="SearchInRotatedSortedArray.cs" />
+    <Compile Include="ShortestWordDistance.cs" />
+    <Compile Include="ShortestWordDistance2.cs" />
     <Compile Include="SortedArrayToBST.cs" />
     <Compile Include="TrimBST.cs" />
     <Compile Include="UniquePath.cs" />
