@@ -112,6 +112,16 @@ namespace LeetCode
             UniquePath countpathsNbyMMatrix = new UniquePath();
             int noOfPaths = countpathsNbyMMatrix.NumberOfPaths(3, 3);
 
+            HashTable.MinimumIndexSumOfTwoLists findRestaurant = new HashTable.MinimumIndexSumOfTwoLists();
+
+            var resultFindRestaturant = findRestaurant.FindRestaurant(new string[] { "Shogun", "Tapioca Express", "Burger King", "KFC" }, new string[] { "Piatti", "The Grill at Torrey Pines", "Hungry Hunter Steakhouse", "Shogun" });
+
+            PermutationsDistinctNumbers permutationsDistinctNumbers = new PermutationsDistinctNumbers();
+            permutationsDistinctNumbers.Permute(new int[] { 1, 2, 3 });
+
+            SortLinkedList sortedLinkedList = new SortLinkedList();
+            ListNode temp1 = new ListNode(3) { next = new ListNode(2) {next= new ListNode(4) { next = null } } };
+            ListNode temp2=sortedLinkedList.SortList(temp1);
         }
     }
 }

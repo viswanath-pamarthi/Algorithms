@@ -134,7 +134,39 @@ namespace LeetCode
                 return b;
             }
 
+        }    
+
+    /// <summary>
+    /// A simple recursive solution.
+    /// TIme complexity O(n) - the smallest list size
+    /// f(n)= 0 when n=0 that is not eelements, no comparisions are done
+    ///       1+T(n-1) when n>0.               
+    /// </summary>
+    /// <param name="l1"></param>
+    /// <param name="l2"></param>
+    /// <returns></returns>
+    public ListNode MergeTwoListsRecursive(ListNode l1, ListNode l2)
+    {
+        //This is kind of Merge Sort , Merge routine
+        if (l1 == null)
+            return l2;
+        if (l2 == null)
+            return l1;
+        //writing a recursive solution
+
+        if (l1.val < l2.val)
+        {
+            l1.next = MergeTwoListsRecursive(l1.next, l2);
+            return l1;
         }
+
+        else
+        {
+            l2.next = MergeTwoListsRecursive(l1, l2.next);
+            return l2;
+        }
+    }
+
     }
     ///// <summary>
     ///// C++ soltion in discussiono section., I liked the idea of using the dummy node to prevent an extra case to create a head node

@@ -53,12 +53,12 @@ namespace LeetCode
         {
             //Using the concept of dynamic programming, storing the possible paths from each point, so when you reach that point the possible ways will be the same as it is from that point.
             //Using the recursion the problem is as simple as caliculating for a single cell. there are only two ways(left or down) to go from a single cell.
-            int[,] numberOfPathsPerCell = new int[noOfRows, noOfCols+1];//integer array is intialized to 0 by default            
+            int[,] numberOfPathsFromThisCell = new int[noOfRows, noOfCols+1];//integer array is intialized to 0 by default            
 
-            return CalculatePaths(0,0,numberOfPathsPerCell,noOfRows, noOfCols);
+            return CalculatePaths(0,0,numberOfPathsFromThisCell,noOfRows, noOfCols);
         }
 
-        private int CalculatePaths(int rowIndex, int colIndex, int[,] numberOfPathsPerCell, int noOfRows, int noOfCols)
+        private int CalculatePaths(int rowIndex, int colIndex, int[,] numberOfPathsFromThisCell, int noOfRows, int noOfCols)
         {
             //base case
             if (rowIndex == (noOfRows - 1) && colIndex == (noOfCols - 1))
@@ -67,16 +67,19 @@ namespace LeetCode
             if (colIndex+1<noOfCols)
             {
                 //check if there is a value for the right cell, if present then no need to calucuate the paths for that cell again
-                numberOfPathsPerCell[rowIndex, colIndex] += numberOfPathsPerCell[rowIndex,colIndex+1]>0? numberOfPathsPerCell[rowIndex, colIndex + 1] : CalculatePaths(rowIndex, colIndex + 1, numberOfPathsPerCell, noOfRows, noOfCols);
+                numberOfPathsFromThisCell[rowIndex, colIndex] += numberOfPathsFromThisCell[rowIndex,colIndex+1]>0? numberOfPathsFromThisCell[rowIndex, colIndex + 1] : CalculatePaths(rowIndex, colIndex + 1, numberOfPathsFromThisCell, noOfRows, noOfCols);
             }
 
             if(rowIndex+1<noOfRows)
             {
                 //check if there is a value for the bottom cell, if present then no need to calucuate the paths for that cell again
-                numberOfPathsPerCell[rowIndex, colIndex] += numberOfPathsPerCell[rowIndex+1, colIndex] > 0 ? numberOfPathsPerCell[rowIndex+1, colIndex] : CalculatePaths(rowIndex+1, colIndex, numberOfPathsPerCell, noOfRows, noOfCols);
+                numberOfPathsFromThisCell[rowIndex, colIndex] += numberOfPathsFromThisCell[rowIndex+1, colIndex] > 0 ? numberOfPathsFromThisCell[rowIndex+1, colIndex] : CalculatePaths(rowIndex+1, colIndex, numberOfPathsFromThisCell, noOfRows, noOfCols);
             }
 
-            return numberOfPathsPerCell[rowIndex, colIndex];
+            //How about the diagonal paths from a cell, have to fetch the value stored in the dynamic programming, i+1,j+1 cell check if the value is there
+            //if ((rowIndex < noOfRows - 1) && (colIndex < noOfRows - 1))
+              //  numberOfPathsPerCell[rowIndex, colIndex] += ((rowIndex == (noOfRows - 2)) && (colIndex == (noOfCols - 2))) ? 1 : numberOfPathsPerCell[rowIndex + 1, colIndex + 1];
+            return numberOfPathsFromThisCell[rowIndex, colIndex];
         }
     }
 }
