@@ -62,10 +62,12 @@
     <Compile Include="FindLeavesOfBinaryTree.cs" />
     <Compile Include="HashTable\MinimumIndexSumOfTwoLists.cs" />
     <Compile Include="IntersectionLinkedList.cs" />
+    <Compile Include="IsomorphicStrings.cs" />
     <Compile Include="KeyboardRow.cs" />
     <Compile Include="LinkedListCycle.cs" />
     <Compile Include="LinkedListCycle2.cs" />
     <Compile Include="LongestPalindromeSubstring.cs" />
+    <Compile Include="MaxPointsOnaLine.cs" />
     <Compile Include="MaxSubArraySum.cs" />
     <Compile Include="MergeIntervals.cs" />
     <Compile Include="MergeSortedArrays.cs" />
@@ -77,6 +79,7 @@
     <Compile Include="PermutationInString.cs" />
     <Compile Include="PermutationOfDuplicateNumbers.cs" />
     <Compile Include="PermutationsDistinctNumbers.cs" />
+    <Compile Include="PlaceFlowersAlternatively.cs" />
     <Compile Include="RemoveDuplicateSortedArray.cs" />
     <Compile Include="RemoveDuplicatesSortedList.cs" />
     <Compile Include="RemoveElement.cs" />
