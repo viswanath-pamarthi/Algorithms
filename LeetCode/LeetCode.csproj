@@ -90,6 +90,8 @@
     <Compile Include="ReverseStringII.cs" />
     <Compile Include="SearchForRangeOftarget.cs" />
     <Compile Include="SearchInRotatedSortedArray.cs" />
+    <Compile Include="SerializeDeserializeBinaryTree.cs" />
+    <Compile Include="SerializeDeserializeBST.cs" />
     <Compile Include="ShortestWordDistance.cs" />
     <Compile Include="ShortestWordDistance2.cs" />
     <Compile Include="ShortWordDistance3.cs" />
