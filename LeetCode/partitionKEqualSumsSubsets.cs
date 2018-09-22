@@ -21,7 +21,7 @@ namespace LeetCode
     {
         /// <summary>
         /// Time Complexity: ??
-        /// Space Complexity
+        /// Space Complexity: ??
         /// Dynamic Programming (isTaken array to prevent the callculated numbers of subsets) - backtracking is used 
         /// </summary>
         /// <param name="nums"></param>

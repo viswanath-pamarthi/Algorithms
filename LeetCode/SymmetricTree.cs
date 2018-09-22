@@ -42,6 +42,9 @@ namespace LeetCode
         /// <summary>
         /// Recursive solution.
         /// Time Complexity: O(n)- n/2 comparisions are done
+        /// //https://leetcode.com/articles/symmetric-tree/
+        /// Because we traverse the entire input tree once, the total run time is O(n), where nn is the total number of nodes in the tree.
+        ///The number of recursive calls is bound by the height of the tree.In the worst case, the tree is linear and the height is in O(n)O(n). Therefore, space complexity due to recursive calls on the stack is O(n)O(n) in the worst case.
         /// Space Complexity: O(1) ??
         ///liked the minimal conditions checked in this solution in the discussion section.
         ///public boolean isSymmetric(TreeNode root) {
@@ -90,8 +93,9 @@ namespace LeetCode
         }
 
         //Iterative solution
-        //time complexity O(N) as iterative solution
-        //O(h+1) as recursive, h+1(depth of tree) the maximum total number of iterative calls present on the stack at time(ref: pg 44 of craking the coding interview)
+        //Because we traverse the entire input tree once, the total run time is O(n), where n is the total number of nodes in the tree.
+
+        //There is additional space required for the search queue.In the worst case, we have to insert O(n) nodes in the queue.Therefore, space complexity is O(n)O(n).
         /* public bool IsSymmetric(TreeNode root)
          {
 
