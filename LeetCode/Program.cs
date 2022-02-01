@@ -11,6 +11,12 @@ namespace LeetCode
     {
         static void Main(string[] args)
         {
+
+
+
+
+
+            return;
             //Hamming Distance solution 1
             HammingDistance hammingDistance1 = new HammingDistance(20, 30);
             hammingDistance1.solutionOne();
