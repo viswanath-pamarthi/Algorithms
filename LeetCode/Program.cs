@@ -3,7 +3,7 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
-
+using LeetCode.DataStructures.Heap;
 
 namespace LeetCode
 {
@@ -11,10 +11,14 @@ namespace LeetCode
     {
         static void Main(string[] args)
         {
-
-
-
-
+            int inputCharacter;
+            MaxHeap maxHeap = new MaxHeap(5);
+            //do {
+            //    Console.wa
+            //    inputCharacter = Console.Read();
+                
+            //}
+            //while (inputCharacter != ((int)'+') );
 
             return;
             //Hamming Distance solution 1

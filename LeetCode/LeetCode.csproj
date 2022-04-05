@@ -22,6 +22,7 @@
     <DefineConstants>DEBUG;TRACE</DefineConstants>
     <ErrorReport>prompt</ErrorReport>
     <WarningLevel>4</WarningLevel>
+    <LangVersion>latest</LangVersion>
   </PropertyGroup>
   <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
     <PlatformTarget>AnyCPU</PlatformTarget>
@@ -31,6 +32,7 @@
     <DefineConstants>TRACE</DefineConstants>
     <ErrorReport>prompt</ErrorReport>
     <WarningLevel>4</WarningLevel>
+    <LangVersion>latest</LangVersion>
   </PropertyGroup>
   <ItemGroup>
     <Reference Include="System" />
@@ -139,12 +141,18 @@
     <Compile Include="ValidAnagram.cs" />
     <Compile Include="ValidPerfectSquare.cs" />
     <Compile Include="Partition-Labels.cs" />
+    <Compile Include="DataStructures\Heap\MaxHeap.cs" />
+    <Compile Include="DataStructures\Heap\MinHeap.cs" />
+    <Compile Include="DataStructures\Heap\IHeap.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />
   </ItemGroup>
   <ItemGroup>
     <Content Include="Images\200px-Telephone-keypad2.svg.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="DataStructures\Heap\" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
