@@ -12,8 +12,8 @@ namespace LeetCode
         static void Main(string[] args)
         {
             int[] inputArray = new int[5] { 10, 20, 15, 30, 40 };
-            var result = new HeapSort().Sort(inputArray);
-            var result1 = new HeapSort().Sort(inputArray, false);
+            var result1 = new HeapSort().Sort(inputArray);
+            var result2 = new HeapSort().Sort(inputArray, false);
 
             return;
             string? inputCharacter;
