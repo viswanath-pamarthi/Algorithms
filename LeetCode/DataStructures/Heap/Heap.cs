@@ -4,6 +4,10 @@ namespace LeetCode.DataStructures.Heap
     /// <summary>
     /// Heap is a complete binary tree
     /// Height of a complete binary tree is Log n
+    ///
+    /// references:
+    /// https://www.youtube.com/watch?v=HqPJF2L5h9U
+    /// https://gist.github.com/WuchiOnline/e33bfa15f4110e806f501bebdb792450
     /// </summary>
     public abstract class Heap : IHeap
     {
