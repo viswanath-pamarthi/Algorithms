@@ -11,14 +11,21 @@ namespace LeetCode
     {
         static void Main(string[] args)
         {
-            int inputCharacter;
+            int[] inputArray = new int[5] { 10, 20, 15, 30, 40 };
+            var result = new HeapSort().Sort(inputArray);
+            var result1 = new HeapSort().Sort(inputArray, false);
+
+            return;
+            string? inputCharacter;
             MaxHeap maxHeap = new MaxHeap(5);
-            //do {
-            //    Console.wa
-            //    inputCharacter = Console.Read();
-                
-            //}
-            //while (inputCharacter != ((int)'+') );
+            do
+            {
+                //Console.ReadKey();
+
+                inputCharacter = Console.ReadLine();
+                maxHeap.Insert(int.Parse(inputCharacter));
+            }
+            while (string.Compare(inputCharacter,"+")!=0);
 
             return;
             //Hamming Distance solution 1

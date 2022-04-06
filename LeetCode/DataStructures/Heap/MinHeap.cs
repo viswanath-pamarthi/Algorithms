@@ -3,7 +3,7 @@ namespace LeetCode.DataStructures.Heap
 {
     public class MinHeap : Heap
     {
-        public MinHeap(int size) : base(size)
+        public MinHeap(int size, bool isHeapSort = false) : base(size, isHeapSort)
         {
         }
 

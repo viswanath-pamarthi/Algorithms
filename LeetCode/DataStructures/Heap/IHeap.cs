@@ -16,5 +16,7 @@ namespace LeetCode.DataStructures.Heap
 
         //IsEmpty
         bool IsEmpty { get; }
+
+        int[] HeapSortResult { get; }
     }
 }
